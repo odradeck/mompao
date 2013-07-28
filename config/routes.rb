@@ -1,4 +1,8 @@
 Mompao::Application.routes.draw do
+  root :to => 'main#home'
+  #get "main/home"
+  get "main/about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
