@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 gem 'devise'
-gem 'cancan'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 gem 'therubyracer'
 gem 'less-rails' 
@@ -15,6 +16,9 @@ gem 'twitter-bootstrap-rails'
 
 gem 'sqlite3'
 
+group :development do
+	gem 'thin'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
